@@ -1,0 +1,314 @@
+/*------NAVBAR------*/
+@media only screen and (min-width: 992px) and (max-width: 1920px) and (max-height: 435px) {
+    nav .menus {
+        top: 17%;
+    }
+}
+
+@media only screen and (min-width: 1460px) and (max-width: 1920px) {
+    nav .menus {
+        left: 20%;
+    }
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1460px) {
+    nav .menus {
+        left: 18%;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1366px) {
+    nav .menus {
+        left: 17%;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (min-height: 1024px) {
+    nav .menus {
+        left: 15%;
+        top: 40%;
+    }
+    
+    nav .infos {
+        top: 46%;
+    }
+}
+
+@media (max-width: 992px) {
+    nav .menus ul li {
+        font-size: 24px;
+    }
+    
+    nav .menus {
+        left: 16%;
+    }
+    
+    nav .infos .address, nav .infos .contact {
+        font-size: 12px;
+    }
+    
+    nav .infos {
+        top: 38%;
+    }
+}
+
+@media (max-width: 768px) {
+    nav .strips .strip.active, nav .strips .strip.active {
+        display: none;
+    }
+    
+    nav .menu-overlay .block.b2.active, nav .menu-overlay .block.b3.active {
+        display: none;
+    }
+    
+    nav .menu-overlay .block.b1.active {
+        width: 80%;
+        z-index: 1;
+    }
+    
+    nav .menu-overlay .block.b4.active {
+        left: 80%;
+        width: 20%;
+    }
+    
+    nav .menus {
+        left: 0;
+        top: 16%;
+    }
+    
+    nav .infos {
+        top: unset;
+        bottom: 10%;
+        left: 0;
+    }
+    
+    nav .infos .address, nav .infos .contact {
+        padding-left: 15px;
+    }
+    
+    nav .nav-footer {
+        width: 100%;
+        left: 0;
+    }
+    
+    nav .nav-footer .company {
+        padding-left: 15px;
+    }
+    
+    nav .infos .address.active, nav .infos .contact.active {
+        color: #d2cfcf;
+    }
+    
+    nav .menus ul li:first-child.active, nav .menus ul li:nth-child(2).active,
+    nav .menus ul li:nth-child(3).active, nav .menus ul li:nth-child(4).active {
+        left: 0;
+    }
+    
+    nav .my-navbar {
+        width: 100%;
+        left: 0;
+    }
+    
+    nav .my-navbar .logo {
+        padding-left: 15px;
+    }
+    
+    nav .my-navbar .menu-bar {
+        padding-right: 15px;
+    }
+    
+    nav .nav-footer .socmed.active {
+        display: inline-grid;
+        top: -100%;
+        transition: all 300ms ease-in-out;
+        right: 7%;
+    }
+    
+    nav .nav-footer .socmed svg.active {
+        opacity: 1;
+        visibility: visible;
+        transition: all 300ms ease-in-out;
+        bottom: 25%;
+        transform: rotate(0);
+        padding-bottom: 12px;
+    }
+    
+    nav .infos {
+        width: 80%;
+    }
+    
+    nav .my-navbar .search-bar .search-box, nav .nav-footer .sc-down {
+        padding-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (max-height: 580px) {
+    nav .infos.active {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    nav .nav-footer .socmed.active {
+        right: 5%;
+    }
+}
+
+@media (max-width: 346px) {
+    nav .nav-footer .company {
+        font-size: 10px;
+        padding-left: 8px;
+    }
+    
+    nav .infos .address, nav .infos .contact {
+        padding-left: 8px;
+    }
+    
+    nav .my-navbar .logo, nav .menus ul li:first-child.active, nav .menus ul li:nth-child(2).active, nav .menus ul li:nth-child(3).active, nav .menus ul li:nth-child(4).active {
+        padding-left: 8px;
+    }
+    
+    nav .my-navbar .search-bar .search-box, nav .nav-footer .sc-down, nav .my-navbar .menu-bar {
+        padding-left: 8px;
+    }
+    
+    nav .nav-footer .socmed.active {
+        top: -130%;
+    }
+}
+
+/*------HEADER------*/
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+    .header .grid-header .title p {
+        font-size: 10px;
+        padding-left: 30px;
+    }
+    
+    .header .grid-header .title p::before {
+        width: 26px;
+        top: 7px;
+    }
+    
+    .header .grid-header .title h1 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    
+    .header .grid-header .title {
+        width: 35%;
+        left: 0;
+    }
+    
+    .header .grid-header .gallery {
+        width: 60%;
+    }
+}
+
+@media (max-width: 992px) {
+    .header .grid-header .gallery {
+        width: 100%;
+        left: -100%;
+        transition: all 300ms ease-in-out;
+    }
+    
+    .header .grid-header .gallery.sticky {
+        left: 0;
+        transition: all 300ms ease-in-out;
+    }
+
+    .header .grid-header .gallery .gallery-next .wrapper-next .card-next .upnext {
+        left: 28%;
+    }
+    
+    .header .grid-header .title {
+        width: 100%;
+        text-align: center;
+        left: 50%;
+        float: unset;
+        bottom: 0;
+        top: 50%;
+        transform: translate(-25%, -50%);
+        justify-content: center;
+        align-items: center;
+        transition: all 300ms ease-in-out;
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .header .grid-header .title.sticky {
+        opacity: 0;
+        visibility: hidden;
+        transition: all 300ms ease-in-out;
+    }
+    
+    body::after {
+        content: '';
+        top: 0;
+        width: 0;
+        height: 100%;
+        background: #ddd;
+        position: absolute;
+        opacity: 1;
+        z-index: 1000;
+    }
+}
+
+@media (max-width: 768px) {
+    .header .grid-header .title {
+        left: 44%;
+    }
+    
+    nav .nav-footer .sc-down {
+        top: -13px;
+    }
+}
+
+@media (max-width: 600px) {
+    .header .grid-header .title h1 {
+        font-size: 28px;
+        margin-bottom: 0;
+    }
+    
+    .header .grid-header .title p {
+        font-size: 12px;
+        padding-left: 30px;
+    }
+    
+    .header .grid-header .title p::before {
+        width: 24px;
+        top: 8px;
+    }
+}
+
+@media (max-width: 460px) {
+    .header .grid-header .title {
+        left: 0;
+        transform: translate(0%, -30%);
+    }
+}
+
+@media (max-width: 400px) {
+    .header .grid-header .title p {
+        font-size: 8px;
+    }
+    
+    .header .grid-header .title p::before {
+        top: 5px;
+    }
+    
+    .header .grid-header .title h1 {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (max-height: 480px) {
+    .header .grid-header .title {
+        transform: translate(0%, -50%);
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) and (min-height: 900px) and (max-height: 1024px) {
+    .header .grid-header .title {
+        transform: translate(-25%, -30%);
+    }
+}
